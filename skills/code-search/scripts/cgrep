@@ -1,0 +1,29 @@
+#!/bin/sh
+# Portable ColGREP search shorthand. Explicit CLI/backend environment wins.
+set -eu
+if ! command -v colgrep >/dev/null 2>&1; then
+  echo "cgrep: colgrep is not on PATH; see code-search/references/setup.md" >&2
+  exit 127
+fi
+count_given=no
+backend_given=no
+static_given=no
+for arg do
+  case "$arg" in
+    --) break ;;
+    -k|--results|--results=*|-k[0-9]*) count_given=yes ;;
+    --force-gpu|--force-cpu) backend_given=yes ;;
+    --static-batch) static_given=yes ;;
+  esac
+done
+for mode in "${FORCE_CPU:-}" "${COLGREP_FORCE_CPU:-}" "${NEXT_PLAID_FORCE_CPU:-}"             "${FORCE_GPU:-}" "${COLGREP_FORCE_GPU:-}" "${NEXT_PLAID_FORCE_GPU:-}"; do
+  case "$mode" in 1|[Tt][Rr][Uu][Ee]) backend_given=yes ;; esac
+done
+if [ "$count_given" = no ]; then set -- -k 8 "$@"; fi
+if [ "$static_given" = no ]; then set -- --static-batch "$@"; fi
+if [ "$backend_given" = no ]; then
+  case "$(uname -s):$(uname -m)" in
+    Darwin:arm64|Darwin:aarch64) set -- --force-gpu "$@" ;;
+  esac
+fi
+exec colgrep search "$@"
