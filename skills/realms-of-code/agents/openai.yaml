@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realms of Code"
+  short_description: "Engineering axioms for disciplined software work"
+  default_prompt: "Use $realms-of-code to plan and verify this software task with the relevant realm guides."

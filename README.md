@@ -1,7 +1,32 @@
 # Agent skills
 
-Reusable skills for Codex and Claude Code. Start with one shared local code-search
-workflow: outline the relevant code, then choose the tool that fits the question.
+Reusable skills for Codex and Claude Code: an engineering charter and a shared
+local code-search workflow.
+
+| Skill | Purpose |
+| --- | --- |
+| [Realms of Code](skills/realms-of-code/SKILL.md) | Seventeen engineering responsibilities, memorable mottos and 68 actionable axioms, loaded as needed. |
+| [Code search](skills/code-search/SKILL.md) | Scoped outlines, exact search, semantic discovery and structural patterns. |
+
+## Install Realms of Code
+
+```bash
+DO_NOT_TRACK=1 npx skills add ebursztein/agent-skills \
+  --skill realms-of-code --agent codex claude-code --global
+```
+
+The charter routes to one guide per realm. Targaryen covers PRDs and architecture;
+Baratheon covers Sprinty, subsprints and bounded spikes; Lannister covers TDD;
+Citadel covers documentation and guards; Iron Bank covers coverage, integration
+and release proof. The remaining realms cover components, simplicity, UX,
+standards, dependency decisions, supply-chain trust, test doubles, chaos, load,
+infrastructure, security/privacy and observability.
+
+Read the [setup guide](skills/realms-of-code/references/setup.md) for shared
+installation, agent instruction pointers and updates. Each realm's Markdown file
+is the canonical content for future field-guide and website reuse. Literary
+quotations and original engineering mottos are distinguished in the
+[provenance notes](skills/realms-of-code/references/sources.md).
 
 ## Install code-search
 
@@ -57,6 +82,7 @@ are included in this repository.
 
 ```bash
 DO_NOT_TRACK=1 npx skills update code-search --global
+DO_NOT_TRACK=1 npx skills update realms-of-code --global
 ```
 
 Update tool binaries separately and recheck their actual flags and backend
@@ -70,3 +96,10 @@ adapted ast-grep guides retain their upstream provenance in
 [sources.md](skills/code-search/references/sources.md) and
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Tool binaries and models are
 separate projects and are not redistributed here.
+
+<details>
+<summary>A note from Dragonstone</summary>
+
+Elie, Head of House Targaryen, Keeper of the Design Docs.
+
+</details>
