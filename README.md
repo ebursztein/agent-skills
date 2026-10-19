@@ -19,6 +19,11 @@ At Dragonstone, we forge code from raw first principles. The great houses
 strengthen the realm, the Citadel preserves its hard-won knowledge, and the
 Iron Bank collects the proof before a release can pass its gates.
 
+The roles give everyday development flavor: “What do we say to bugs? Not
+today.” Call the Greyjoys when testing resilience, or name what the Iron Bank
+is still owed before release. Brief in-world phrasing accompanies concrete
+work and verifiable results.
+
 The charter routes to one guide per realm, with its own lore and practical
 axioms. Targaryen turns first principles into product intent and architecture;
 Baratheon covers Sprinty, subsprints and bounded spikes; Lannister covers TDD;
