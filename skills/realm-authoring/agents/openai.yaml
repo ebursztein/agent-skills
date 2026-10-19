@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realm Authoring"
+  short_description: "Write practical realms with engineering flavor"
+  default_prompt: "Use $realm-authoring to improve this realm with concrete triggers, actions, evidence and house flavor."

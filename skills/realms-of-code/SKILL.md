@@ -9,9 +9,8 @@ A realm of code is forged, tested and kept. Dragonstone gives it shape; the
 great houses strengthen its parts; the Citadel remembers its lessons; the Iron
 Bank demands proof before release. Call the banners the work requires.
 
-One charter, seventeen responsibilities. Each realm has a motto, a short piece
-of engineering lore, four axioms and concrete application guidance. The lore
-makes the discipline memorable; decisions and evidence stay precise.
+Use this entrypoint to choose a realm. Its guide supplies the motto, lore,
+axioms, practical steps and evidence. Load only what the current work needs.
 
 ## Bring the roles into the work
 
@@ -48,9 +47,9 @@ checks support it.
    item before edits; use Lannister for bounded TDD increments. Use Targaryen for
    product/architecture decisions. When Sprinty is unavailable, follow Baratheon's
    explicit fallback and the project's instructions.
-4. Establish the relevant evidence before implementation. Apply Citadel when
-   decisions or lessons need durable protection and Iron Bank when validating
-   completion or release. Preserve existing gates; report checks not run honestly.
+4. Add Citadel guardrails as rules and failure modes emerge during development.
+   Preserve measured improvements with ratchets; use Iron Bank to enforce these
+   alongside the required checks. Report checks not run honestly.
 5. Use the separate `code-search` skill when available for scoped orientation and
    tool selection. Otherwise use the repository's available navigation tools.
    Native tools still own edits, testing and git.
@@ -61,34 +60,34 @@ multi-agent work. Documentation-only work needs proportionate document checks;
 behavior changes need TDD. Reuse approved tools and services. Do not install
 Sprinty, MCP servers, models or binaries simply because this skill is invoked.
 
-## Realm guides
+## When to use each realm
 
-| Realm | Responsibility |
+| Realm | Call when the work involves… |
 | --- | --- |
-| [Targaryen](references/realms/targaryen.md) | Product intent and architecture from first principles |
-| [Martell](references/realms/martell.md) | Framework and component design |
-| [Tyrell](references/realms/tyrell.md) | Growth through simplicity |
-| [Tully](references/realms/tully.md) | User experience and accessibility |
-| [Arryn](references/realms/arryn.md) | Standards and interoperability |
-| [Braavos](references/realms/braavos.md) | Build versus buy and dependency awareness |
-| [The Free Folk](references/realms/free-folk.md) | Supply-chain engineering |
-| [Baratheon](references/realms/baratheon.md) | Sprints, spikes and agile delivery |
-| [Lannister](references/realms/lannister.md) | TDD-driven, disciplined development |
-| [The Faceless Men](references/realms/faceless-men.md) | Test doubles and simulation |
-| [Greyjoy](references/realms/greyjoy.md) | Chaos engineering and fuzzing |
-| [The Dothraki](references/realms/dothraki.md) | Load and stress testing |
-| [Stark](references/realms/stark.md) | Infrastructure and operational foundations |
-| [The Night's Watch](references/realms/nights-watch.md) | Security and privacy |
-| [The Whisper Network](references/realms/whisper-network.md) | Observability |
-| [The Citadel](references/realms/citadel.md) | Documentation and executable guardrails |
-| [The Iron Bank](references/realms/iron-bank.md) | CI/CD and release proof |
+| [Targaryen](references/realms/targaryen.md) | Defining a product/PRD, changing architecture or ownership, or replacing a design that repeatedly causes defects. |
+| [Martell](references/realms/martell.md) | Creating reusable components, splitting modules, exposing interfaces, or untangling hidden/cyclic dependencies. |
+| [Tyrell](references/realms/tyrell.md) | Adding similar functionality, choosing abstractions, removing duplication, or improving measured performance and scaling. |
+| [Tully](references/realms/tully.md) | Changing a user flow, screen or control; fixing usability, accessibility, or failure/recovery states. |
+| [Arryn](references/realms/arryn.md) | Choosing a protocol, format, API convention or implementing technology; changing interoperability or version compatibility. |
+| [Braavos](references/realms/braavos.md) | Deciding whether to build a capability or adopt an existing library, tool, service or vendor. |
+| [The Free Folk](references/realms/free-folk.md) | Adding/upgrading dependencies, reviewing lockfiles/artifact origins, or addressing vulnerable, deprecated or abandoned packages. |
+| [Baratheon](references/realms/baratheon.md) | Planning implementation across steps, defining sprints/subsprints, changing scope, or resolving uncertainty with a spike. |
+| [Lannister](references/realms/lannister.md) | Implementing behavior, reproducing a bug, writing regression tests, or refactoring while preserving behavior. |
+| [The Faceless Men](references/realms/faceless-men.md) | Testing writes/deletions, payments/messages, external services, retries, clocks or randomness with mocks, stubs, fakes or spies. |
+| [Greyjoy](references/realms/greyjoy.md) | Parsing hostile inputs, handling interrupted writes/retries, concurrent races, or proving recovery through fuzzing and fault injection. |
+| [The Dothraki](references/realms/dothraki.md) | Claiming capacity/scaling, investigating saturation, or checking bursts, sustained load and overload recovery. |
+| [Stark](references/realms/stark.md) | Provisioning environments, changing infrastructure/configuration, deploying infrastructure, or verifying backups and restoration. |
+| [The Night's Watch](references/realms/nights-watch.md) | Adding permissions, crossing trust boundaries, handling sensitive data, or changing collection, access, retention and deletion. |
+| [The Whisper Network](references/realms/whisper-network.md) | Adding a workflow/job, diagnosing production failures, or changing logs, metrics, traces and alerts. |
+| [The Citadel](references/realms/citadel.md) | Discovering an invariant, fixing a recurring defect, changing a contract, or recording an improvement that needs a guardrail or ratchet. |
+| [The Iron Bank](references/realms/iron-bank.md) | Adding/changing CI gates, enforcing coverage and performance/cost ratchets, or checking integration and release readiness. |
 
 ## Boundaries that prevent duplicated work
 
 - Targaryen forges the architecture from first principles; Martell makes its components independent;
   Tyrell keeps growth and composition simple.
 - Baratheon organizes the work; Lannister executes verified increments; Citadel
-  preserves contracts and lessons; Iron Bank collects the required release proof.
+  records rules and builds guards/ratchets as we go; Iron Bank enforces the gates.
 - Braavos decides whether to build or adopt and considers dependency obligations;
   Free Folk checks and maintains supply-chain trust after adoption.
 - Faceless Men supplies controlled doubles; Greyjoy introduces faults and hostile

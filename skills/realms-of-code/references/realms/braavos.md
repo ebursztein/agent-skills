@@ -8,10 +8,6 @@ Build versus buy and dependency awareness.
 
 The harbor of Braavos is full of ships already built and crafts already mastered. Before laying a new keel, visit the market. Read the whole bargain: upkeep, dependencies and the route home. A purchase earns its place when it serves the realm and its obligations are understood.
 
-## When to use
-
-Before creating a new capability or adopting a library, service, tool or vendor.
-
 ## Axioms
 
 1. **Survey existing solutions before building.** Consider tools, libraries, services and capabilities already available.
@@ -19,6 +15,13 @@ Before creating a new capability or adopting a library, service, tool or vendor.
 3. **Keep an exit possible.** Understand how the dependency can be upgraded, replaced or removed.
 4. **Build for a demonstrated reason.** Record the requirement or tradeoff that makes ownership worthwhile.
 
-## Application and evidence
+## What to do
 
-Use a proportionate comparison of existing options and custom work. Inspect actual dependencies and operational requirements. Choosing a dependency does not authorize purchases, new accounts or external publication. Free Folk owns ongoing supply-chain trust; Tyrell owns simple integration.
+1. **Inventory available capability.** Search the repository, installed tools and existing services before writing a replacement. Compare plausible maintained options against the actual requirement.
+2. **Price the whole obligation.** Evaluate integration effort, ongoing cost, limits, data handling, licenses, dependencies, maintenance and vendor lock-in. Check the uncertain capability with a small representative trial.
+3. **Choose reuse or ownership deliberately.** Adopt the simplest suitable option. Build only for a demonstrated gap or an explicit tradeoff; record why ownership is worthwhile.
+4. **Keep an exit.** Identify replacement/export paths and isolate the dependency where that reduces real switching cost. Hand ongoing dependency checks to Free Folk; apply the user's purchase and account permissions.
+
+## Evidence
+
+Keep a concise comparison, the trial result and the reason for adoption or custom work.

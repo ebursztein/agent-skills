@@ -8,10 +8,6 @@ Load and stress testing.
 
 One rider proves the gate opens. The horde reveals whether the realm can feed, shelter and withstand thousands arriving together. The Dothraki bring sustained demand, sudden surges and the pressure of exhaustion. After the dust settles, the realm must recover its strength.
 
-## When to use
-
-Capacity, concurrency, saturation, scaling and overload claims.
-
 ## Axioms
 
 1. **Define the expected demand.** Establish representative workloads and performance targets.
@@ -19,6 +15,13 @@ Capacity, concurrency, saturation, scaling and overload claims.
 3. **Find the breaking point.** Measure saturation, queue growth, error rates and resource exhaustion.
 4. **Verify overload and recovery.** Backpressure, load shedding and recovery after the surge are part of the result.
 
-## Application and evidence
+## What to do
 
-Record workload, environment, duration, latency distribution, throughput, errors and resource use. Establish a baseline and bound the test's cost and impact. Load tests against production or third parties require authorization for that target and load; invoking this skill is not that authorization.
+1. **Define the workload.** Pick representative operations, data size, concurrency and latency/error targets. Record the environment and a baseline before changing capacity.
+2. **Increase pressure deliberately.** Exercise normal traffic, bursts and sustained load; add endurance runs when leaks or accumulation are plausible. Bound duration, spend and target impact.
+3. **Measure the bottleneck.** Capture throughput, latency percentiles, errors, queues and resource use together. Check results for correctness so dropped work cannot masquerade as higher throughput.
+4. **Verify recovery.** Check backpressure, shedding and drain/recovery after overload. Keep stable representative benchmarks as regression budgets. Production or third-party load requires authorization for that target and load.
+
+## Evidence
+
+Report workload/environment, baseline comparison, latency/throughput/errors and recovery results together.

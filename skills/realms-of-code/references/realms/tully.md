@@ -8,10 +8,6 @@ User experience and accessibility.
 
 At Riverrun, every crossing serves someone trying to reach the other bank. Tully follows the whole journey: the clear path, the missing sign, the flooded ford and the way back. The realm honors its people when its interfaces remain understandable and usable through success and difficulty.
 
-## When to use
-
-Product flows, UI, interaction, usability and accessibility work.
-
 ## Axioms
 
 1. **Begin with the user's task.** Features serve an understandable need and outcome.
@@ -19,6 +15,13 @@ Product flows, UI, interaction, usability and accessibility work.
 3. **Accessibility is part of correctness.** Interaction must work across the relevant abilities, devices and input methods.
 4. **Verify the experience.** Test real workflows and user-visible results.
 
-## Application and evidence
+## What to do
 
-Exercise the complete user task, including relevant failure and recovery states. Verify keyboard use, semantics, focus, contrast and responsive behavior when affected. Relate results to the PRD's user outcomes.
+1. **Walk the user's task.** Read its product goal and follow the existing flow. Identify where the user cannot understand, act, recover or finish.
+2. **Reuse the interaction language.** Use existing components and patterns. Design loading, empty, error, recovery and success states, including how entered work is preserved.
+3. **Make access work.** Use semantic controls and verify keyboard navigation, focus, labels, contrast and responsive layouts for the affected flow.
+4. **Exercise the real journey.** Test in the actual UI, including a relevant failure and recovery. Assert visible outcomes and add a regression for the defect or interaction guarantee.
+
+## Evidence
+
+Record the exercised user journey, accessibility results and recovery outcome in the actual UI.

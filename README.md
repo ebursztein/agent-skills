@@ -7,6 +7,7 @@ local code-search workflow.
 | --- | --- |
 | [Realms of Code](skills/realms-of-code/SKILL.md) | Seventeen realms of engineering lore, memorable mottos and 68 actionable axioms, loaded as needed. |
 | [Code search](skills/code-search/SKILL.md) | Scoped outlines, exact search, semantic discovery and structural patterns. |
+| [Realm authoring](skills/realm-authoring/SKILL.md) | Write practical realm guides with concrete triggers, actions, evidence and house flavor. |
 
 ## Install Realms of Code
 
@@ -24,11 +25,12 @@ today.” Call the Greyjoys when testing resilience, or name what the Iron Bank
 is still owed before release. Brief in-world phrasing accompanies concrete
 work and verifiable results.
 
-The charter routes to one guide per realm, with its own lore and practical
-axioms. Targaryen turns first principles into product intent and architecture;
+The main skill names concrete triggers for each realm; its guide provides lore,
+axioms, actions and evidence. Targaryen turns first principles into product intent and architecture;
 Baratheon covers Sprinty, subsprints and bounded spikes; Lannister covers TDD;
-Citadel covers documentation and guards; Iron Bank covers coverage, integration
-and release proof. The remaining realms cover components, simplicity, UX,
+Citadel builds documentation, guardrails and ratchets during development; Iron
+Bank enforces them alongside coverage, integration and release proof. The
+remaining realms cover components, simplicity, UX,
 standards, dependency decisions, supply-chain trust, test doubles, chaos, load,
 infrastructure, security/privacy and observability.
 
@@ -37,6 +39,19 @@ installation, agent instruction pointers and updates. Each realm's Markdown file
 is the canonical content for future field-guide and website reuse. Literary
 quotations and original engineering mottos are distinguished in the
 [provenance notes](skills/realms-of-code/references/sources.md).
+
+## Authoring realm guides
+
+For creating or improving the charter itself:
+
+```bash
+DO_NOT_TRACK=1 npx skills add ebursztein/agent-skills \
+  --skill realm-authoring --agent codex claude-code --global
+```
+
+The authoring skill teaches main-skill triggers and actionable realm practices,
+using Faceless Men and Arryn as examples. It loads for realm writing; ordinary development uses Realms
+of Code.
 
 ## Install code-search
 
@@ -93,6 +108,7 @@ are included in this repository.
 ```bash
 DO_NOT_TRACK=1 npx skills update code-search --global
 DO_NOT_TRACK=1 npx skills update realms-of-code --global
+DO_NOT_TRACK=1 npx skills update realm-authoring --global
 ```
 
 Update tool binaries separately and recheck their actual flags and backend
