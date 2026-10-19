@@ -100,6 +100,6 @@ separate projects and are not redistributed here.
 <details>
 <summary>A note from Dragonstone</summary>
 
-Elie, Head of House Targaryen, Keeper of the Design Docs.
+Elie, the Dragon Head of House Targaryen.
 
 </details>
