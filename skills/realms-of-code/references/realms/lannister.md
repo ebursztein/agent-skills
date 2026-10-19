@@ -1,18 +1,8 @@
----
-id: "lannister"
-name: "Lannister"
-discipline: "TDD-driven, disciplined development"
-motto: "A Lannister always pays his debts."
-motto_kind: "associated saying"
----
-
 # Lannister
 
 TDD-driven, disciplined development.
 
 > A Lannister always pays his debts.
-
-Motto: associated saying; see [provenance](../sources.md).
 
 ## The lore
 

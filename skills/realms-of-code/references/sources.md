@@ -29,7 +29,7 @@ from Capsem are copied.
   the Citadel quotation is spoken by Archmaester Ebrose.
 
 Braavos, Free Folk, Faceless Men, Dothraki and Whisper Network use original
-engineering mottos, labeled as such in each guide. Do not present those mottos
+engineering mottos. Do not present those mottos
 as quotations from the books or television series. Literary names and quoted
 lines remain attributable to their original creators; the MIT license covers
 this project's original engineering text and implementation. This project is

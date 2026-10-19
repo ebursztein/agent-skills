@@ -34,7 +34,7 @@ cry, a house motto or a playful observation tied to the actual work. For example
 Use these as examples, not a script. Keep the wit brief and natural; every
 message need not carry a motto. Technical explanations, code and test evidence
 remain precise. A rallying cry expresses intent; report success only when the
-checks support it. The playful lines here are engineering adaptations.
+checks support it.
 
 ## Apply the charter
 
@@ -96,9 +96,6 @@ Sprinty, MCP servers, models or binaries simply because this skill is invoked.
 - Stark supplies operational foundations; the Whisper Network provides diagnostic
   visibility; the Night's Watch governs security and privacy, including telemetry.
 
-## Installation and provenance
+## Installation
 
 Read [setup](references/setup.md) when installing or updating this shared skill.
-Read [sources](references/sources.md) for the distinction between literary
-quotations and original engineering mottos. The engineering axioms are this
-project's own charter, not claims about the fictional factions' behavior.

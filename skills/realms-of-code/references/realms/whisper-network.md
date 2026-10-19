@@ -1,18 +1,8 @@
----
-id: "whisper-network"
-name: "The Whisper Network"
-discipline: "Observability"
-motto: "Make the important signals heard."
-motto_kind: "original engineering motto"
----
-
 # The Whisper Network
 
 Observability.
 
 > Make the important signals heard.
-
-Motto: original engineering motto; see [provenance](../sources.md).
 
 ## The lore
 

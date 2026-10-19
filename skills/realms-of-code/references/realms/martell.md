@@ -1,18 +1,8 @@
----
-id: "martell"
-name: "Martell"
-discipline: "Framework and component design"
-motto: "Unbowed, Unbent, Unbroken."
-motto_kind: "house words"
----
-
 # Martell
 
 Framework and component design.
 
 > Unbowed, Unbent, Unbroken.
-
-Motto: house words; see [provenance](../sources.md).
 
 ## The lore
 

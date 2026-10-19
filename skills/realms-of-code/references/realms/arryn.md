@@ -1,18 +1,8 @@
----
-id: "arryn"
-name: "Arryn"
-discipline: "Standards and interoperability"
-motto: "As High as Honor."
-motto_kind: "house words"
----
-
 # Arryn
 
 Standards and interoperability.
 
 > As High as Honor.
-
-Motto: house words; see [provenance](../sources.md).
 
 ## The lore
 

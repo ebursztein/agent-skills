@@ -1,18 +1,8 @@
----
-id: "tully"
-name: "Tully"
-discipline: "User experience and accessibility"
-motto: "Family, Duty, Honor."
-motto_kind: "house words"
----
-
 # Tully
 
 User experience and accessibility.
 
 > Family, Duty, Honor.
-
-Motto: house words; see [provenance](../sources.md).
 
 ## The lore
 

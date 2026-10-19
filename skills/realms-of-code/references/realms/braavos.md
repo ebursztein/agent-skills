@@ -1,18 +1,8 @@
----
-id: "braavos"
-name: "Braavos"
-discipline: "Build versus buy and dependency awareness"
-motto: "Don't build what you can buy—and know what you're buying into."
-motto_kind: "original engineering motto"
----
-
 # Braavos
 
 Build versus buy and dependency awareness.
 
 > Don't build what you can buy—and know what you're buying into.
-
-Motto: original engineering motto; see [provenance](../sources.md).
 
 ## The lore
 

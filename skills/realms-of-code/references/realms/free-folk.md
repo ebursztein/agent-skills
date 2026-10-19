@@ -1,18 +1,8 @@
----
-id: "free-folk"
-name: "The Free Folk"
-discipline: "Supply-chain engineering"
-motto: "Choose freely. Trust deliberately."
-motto_kind: "original engineering motto"
----
-
 # The Free Folk
 
 Supply-chain engineering.
 
 > Choose freely. Trust deliberately.
-
-Motto: original engineering motto; see [provenance](../sources.md).
 
 ## The lore
 

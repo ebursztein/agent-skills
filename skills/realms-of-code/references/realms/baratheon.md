@@ -1,18 +1,8 @@
----
-id: "baratheon"
-name: "Baratheon"
-discipline: "Sprints, spikes and agile delivery"
-motto: "Ours is the Fury."
-motto_kind: "house words"
----
-
 # Baratheon
 
 Sprints, spikes and agile delivery.
 
 > Ours is the Fury.
-
-Motto: house words; see [provenance](../sources.md).
 
 ## The lore
 

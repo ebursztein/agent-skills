@@ -1,18 +1,8 @@
----
-id: "nights-watch"
-name: "The Night's Watch"
-discipline: "Security and privacy"
-motto: "The shield that guards the realms of men."
-motto_kind: "oath excerpt"
----
-
 # The Night's Watch
 
 Security and privacy.
 
 > The shield that guards the realms of men.
-
-Motto: oath excerpt; see [provenance](../sources.md).
 
 ## The lore
 

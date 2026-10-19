@@ -1,18 +1,8 @@
----
-id: "faceless-men"
-name: "The Faceless Men"
-discipline: "Test doubles and simulation"
-motto: "Many faces. Faithful contracts."
-motto_kind: "original engineering motto"
----
-
 # The Faceless Men
 
 Test doubles and simulation.
 
 > Many faces. Faithful contracts.
-
-Motto: original engineering motto; see [provenance](../sources.md).
 
 ## The lore
 

@@ -1,18 +1,8 @@
----
-id: "citadel"
-name: "The Citadel"
-discipline: "Documentation and executable guardrails"
-motto: "We are this world's memory."
-motto_kind: "character quotation"
----
-
 # The Citadel
 
 Documentation and executable guardrails.
 
 > We are this world's memory.
-
-Motto: character quotation; see [provenance](../sources.md).
 
 ## The lore
 

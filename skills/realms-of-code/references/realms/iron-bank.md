@@ -1,18 +1,8 @@
----
-id: "iron-bank"
-name: "The Iron Bank"
-discipline: "CI/CD and release proof"
-motto: "The Iron Bank will have its due."
-motto_kind: "associated saying"
----
-
 # The Iron Bank
 
 CI/CD and release proof.
 
 > The Iron Bank will have its due.
-
-Motto: associated saying; see [provenance](../sources.md).
 
 ## The lore
 

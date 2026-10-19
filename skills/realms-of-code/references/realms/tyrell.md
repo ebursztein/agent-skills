@@ -1,18 +1,8 @@
----
-id: "tyrell"
-name: "Tyrell"
-discipline: "Growth through simplicity"
-motto: "Growing Strong."
-motto_kind: "house words"
----
-
 # Tyrell
 
 Growth through simplicity.
 
 > Growing Strong.
-
-Motto: house words; see [provenance](../sources.md).
 
 ## The lore
 

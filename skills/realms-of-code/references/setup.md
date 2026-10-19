@@ -60,8 +60,7 @@ locations; do not copy only SKILL.md.
 
 ## Keeping the charter reusable
 
-The files in `realms/` are the canonical content. Their frontmatter supplies an
-id, name, discipline, motto and motto provenance category for reuse in a field
-guide or website. Edit an axiom there once, then update any affected routing.
+The Markdown files in `realms/` are the canonical content for the skill and
+future website. Edit an axiom there once, then update any affected routing.
 Keep project paths, credentials, deployment configuration and private project
 examples outside this public package.

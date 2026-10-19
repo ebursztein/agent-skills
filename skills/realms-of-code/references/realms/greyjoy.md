@@ -1,18 +1,8 @@
----
-id: "greyjoy"
-name: "Greyjoy"
-discipline: "Chaos engineering and fuzzing"
-motto: "What is dead may never die."
-motto_kind: "ironborn religious saying"
----
-
 # Greyjoy
 
 Chaos engineering and fuzzing.
 
 > What is dead may never die.
-
-Motto: ironborn religious saying; see [provenance](../sources.md).
 
 ## The lore
 

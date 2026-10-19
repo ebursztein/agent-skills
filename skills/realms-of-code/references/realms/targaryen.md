@@ -1,19 +1,8 @@
----
-id: "targaryen"
-name: "Targaryen"
-discipline: "Product intent and architecture from first principles"
-motto: "Blood and Fire."
-motto_kind: "original charter adaptation"
----
-
 # Targaryen — House of the Dragon
 
 Product intent and architecture from first principles.
 
 > Blood and Fire.
-
-Our charter's adaptation of the house words, “Fire and Blood”; see
-[provenance](../sources.md).
 
 ## The lore
 

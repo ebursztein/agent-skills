@@ -1,18 +1,8 @@
----
-id: "stark"
-name: "Stark"
-discipline: "Infrastructure and operational foundations"
-motto: "Winter is Coming."
-motto_kind: "house words"
----
-
 # Stark
 
 Infrastructure and operational foundations.
 
 > Winter is Coming.
-
-Motto: house words; see [provenance](../sources.md).
 
 ## The lore
 

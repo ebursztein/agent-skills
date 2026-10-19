@@ -1,18 +1,8 @@
----
-id: "dothraki"
-name: "The Dothraki"
-discipline: "Load and stress testing"
-motto: "Bring the horde."
-motto_kind: "original engineering motto"
----
-
 # The Dothraki
 
 Load and stress testing.
 
 > Bring the horde.
-
-Motto: original engineering motto; see [provenance](../sources.md).
 
 ## The lore
 
