@@ -14,6 +14,10 @@ Security and privacy.
 
 Motto: oath excerpt; see [provenance](../sources.md).
 
+## The lore
+
+The Watch guards the people of the realm and the secrets entrusted to it. Every gate has a purpose, every permission a limit, every stored secret a reason to remain. Its oath is kept where access happens, including against a familiar face carrying authority it was never granted.
+
 ## When to use
 
 Trust, permissions, sensitive information, identity, retention and security-sensitive changes.

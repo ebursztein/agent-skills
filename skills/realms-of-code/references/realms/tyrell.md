@@ -14,6 +14,10 @@ Growth through simplicity.
 
 Motto: house words; see [provenance](../sources.md).
 
+## The lore
+
+Highgarden grows through cultivation. Shared roots nourish many branches, careful pruning removes needless tangles, and each new trellis earns the weight it carries. Tyrell asks whether every addition helps the whole garden flourish while keeping it simple enough to tend.
+
 ## When to use
 
 Growing a system, reducing duplication, selecting abstractions or improving composition.

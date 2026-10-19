@@ -5,7 +5,7 @@ local code-search workflow.
 
 | Skill | Purpose |
 | --- | --- |
-| [Realms of Code](skills/realms-of-code/SKILL.md) | Seventeen engineering responsibilities, memorable mottos and 68 actionable axioms, loaded as needed. |
+| [Realms of Code](skills/realms-of-code/SKILL.md) | Seventeen realms of engineering lore, memorable mottos and 68 actionable axioms, loaded as needed. |
 | [Code search](skills/code-search/SKILL.md) | Scoped outlines, exact search, semantic discovery and structural patterns. |
 
 ## Install Realms of Code
@@ -15,7 +15,12 @@ DO_NOT_TRACK=1 npx skills add ebursztein/agent-skills \
   --skill realms-of-code --agent codex claude-code --global
 ```
 
-The charter routes to one guide per realm. Targaryen covers PRDs and architecture;
+At Dragonstone, we forge code from raw first principles. The great houses
+strengthen the realm, the Citadel preserves its hard-won knowledge, and the
+Iron Bank collects the proof before a release can pass its gates.
+
+The charter routes to one guide per realm, with its own lore and practical
+axioms. Targaryen turns first principles into product intent and architecture;
 Baratheon covers Sprinty, subsprints and bounded spikes; Lannister covers TDD;
 Citadel covers documentation and guards; Iron Bank covers coverage, integration
 and release proof. The remaining realms cover components, simplicity, UX,

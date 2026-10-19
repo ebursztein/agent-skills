@@ -14,6 +14,10 @@ Infrastructure and operational foundations.
 
 Motto: house words; see [provenance](../sources.md).
 
+## The lore
+
+Winterfell prepares while the roads are still clear. Its foundations are written, its stores accounted for, and its restoration rehearsed. Infrastructure must be reproducible from declared plans, so the realm can rebuild when memory, machines or weather fail it.
+
 ## When to use
 
 Infrastructure, environment provisioning, configuration, backups and operational readiness.

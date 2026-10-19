@@ -14,6 +14,10 @@ CI/CD and release proof.
 
 Motto: associated saying; see [provenance](../sources.md).
 
+## The lore
+
+The Iron Bank accepts evidence in payment. Coverage, integration and the required checks must settle against the very artifact leaving the gates. A deadline cannot erase an unpaid obligation, and a green seal from yesterday cannot guarantee today's release.
+
 ## When to use
 
 Validation planning, integration verification, release preparation and shipping decisions.

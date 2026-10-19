@@ -14,6 +14,10 @@ Framework and component design.
 
 Motto: house words; see [provenance](../sources.md).
 
+## The lore
+
+Dorne stands fierce and independent. Each component knows its own ground, guards its internals and can prove its strength in isolation. Alliances are made through explicit contracts. A framework gains power when its parts compose freely without surrendering their independence.
+
 ## When to use
 
 Designing or refactoring modules, frameworks, libraries and component interfaces.

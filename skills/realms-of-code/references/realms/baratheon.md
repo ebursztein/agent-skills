@@ -14,6 +14,10 @@ Sprints, spikes and agile delivery.
 
 Motto: house words; see [provenance](../sources.md).
 
+## The lore
+
+Storm's End gives fury a direction. A campaign has an objective; each march has an owner and a finish. Sprinty carries the battle plan through sprints and subsprints. Spikes send scouts into uncertainty, and each return changes the plan with evidence.
+
 ## When to use
 
 Implementation planning, feature/fix/refactor work, release preparation and bounded investigations.

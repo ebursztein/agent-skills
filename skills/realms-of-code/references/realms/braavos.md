@@ -14,6 +14,10 @@ Build versus buy and dependency awareness.
 
 Motto: original engineering motto; see [provenance](../sources.md).
 
+## The lore
+
+The harbor of Braavos is full of ships already built and crafts already mastered. Before laying a new keel, visit the market. Read the whole bargain: upkeep, dependencies and the route home. A purchase earns its place when it serves the realm and its obligations are understood.
+
 ## When to use
 
 Before creating a new capability or adopting a library, service, tool or vendor.

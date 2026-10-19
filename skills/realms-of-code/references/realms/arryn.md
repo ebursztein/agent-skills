@@ -14,6 +14,10 @@ Standards and interoperability.
 
 Motto: house words; see [provenance](../sources.md).
 
+## The lore
+
+From the Eyrie, the realm must be able to see the same horizon. A protocol, format or public contract is a shared measure: builders far apart can meet without guessing. Arryn holds that measure high and demands evidence that every bridge reaches the other side.
+
 ## When to use
 
 Choosing or changing protocols, formats, public APIs, conventions or compatibility promises.

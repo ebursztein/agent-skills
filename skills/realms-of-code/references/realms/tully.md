@@ -14,6 +14,10 @@ User experience and accessibility.
 
 Motto: house words; see [provenance](../sources.md).
 
+## The lore
+
+At Riverrun, every crossing serves someone trying to reach the other bank. Tully follows the whole journey: the clear path, the missing sign, the flooded ford and the way back. The realm honors its people when its interfaces remain understandable and usable through success and difficulty.
+
 ## When to use
 
 Product flows, UI, interaction, usability and accessibility work.

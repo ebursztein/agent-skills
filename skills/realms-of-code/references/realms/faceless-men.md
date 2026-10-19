@@ -14,6 +14,10 @@ Test doubles and simulation.
 
 Motto: original engineering motto; see [provenance](../sources.md).
 
+## The lore
+
+In the House of Black and White, a dependency can wear another face. The test double speaks its contract, controls its timing and reveals its failures on command. The disguise must remain faithful: a convenient lie can make a broken system appear sound.
+
 ## When to use
 
 Controlling external dependencies, time, randomness and fixtures in tests.

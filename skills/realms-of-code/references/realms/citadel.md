@@ -14,6 +14,10 @@ Documentation and executable guardrails.
 
 Motto: character quotation; see [provenance](../sources.md).
 
+## The lore
+
+Every failure leaves a lesson worth a link in a maester's chain. The Citadel records why the realm was built this way and turns remembered disasters into executable guards. A warning on a forgotten scroll cannot stop the next mistake; a living guard can.
+
 ## When to use
 
 Contracts, design decisions, repeated mistakes, regression protection and durable project knowledge.

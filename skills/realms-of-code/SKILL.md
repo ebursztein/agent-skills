@@ -5,9 +5,13 @@ description: Apply the Realms of Code engineering charter when planning, impleme
 
 # Realms of Code
 
-One charter, seventeen responsibilities. Each realm has a motto, four axioms and
-concrete application guidance. Use the names as memorable handles; communicate
-technical decisions and evidence in plain language.
+A realm of code is forged, tested and kept. Dragonstone gives it shape; the
+great houses strengthen its parts; the Citadel remembers its lessons; the Iron
+Bank demands proof before release. Call the banners the work requires.
+
+One charter, seventeen responsibilities. Each realm has a motto, a short piece
+of engineering lore, four axioms and concrete application guidance. The lore
+makes the discipline memorable; decisions and evidence stay precise.
 
 ## Apply the charter
 
@@ -38,7 +42,7 @@ Sprinty, MCP servers, models or binaries simply because this skill is invoked.
 
 | Realm | Responsibility |
 | --- | --- |
-| [Targaryen](references/realms/targaryen.md) | Product intent and architecture |
+| [Targaryen](references/realms/targaryen.md) | Product intent and architecture from first principles |
 | [Martell](references/realms/martell.md) | Framework and component design |
 | [Tyrell](references/realms/tyrell.md) | Growth through simplicity |
 | [Tully](references/realms/tully.md) | User experience and accessibility |
@@ -58,7 +62,7 @@ Sprinty, MCP servers, models or binaries simply because this skill is invoked.
 
 ## Boundaries that prevent duplicated work
 
-- Targaryen shapes the architecture; Martell makes its components independent;
+- Targaryen forges the architecture from first principles; Martell makes its components independent;
   Tyrell keeps growth and composition simple.
 - Baratheon organizes the work; Lannister executes verified increments; Citadel
   preserves contracts and lessons; Iron Bank collects the required release proof.

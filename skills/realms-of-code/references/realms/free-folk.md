@@ -14,6 +14,10 @@ Supply-chain engineering.
 
 Motto: original engineering motto; see [provenance](../sources.md).
 
+## The lore
+
+Beyond the Wall, independent builders create tools no single house could forge alone. Their work can strengthen the realm. The Free Folk teach us to know each ally's origin, companions and condition, and to maintain that knowledge long after the gates have opened.
+
 ## When to use
 
 Adding, updating, releasing or retiring dependencies and third-party artifacts.

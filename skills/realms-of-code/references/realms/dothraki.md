@@ -14,6 +14,10 @@ Load and stress testing.
 
 Motto: original engineering motto; see [provenance](../sources.md).
 
+## The lore
+
+One rider proves the gate opens. The horde reveals whether the realm can feed, shelter and withstand thousands arriving together. The Dothraki bring sustained demand, sudden surges and the pressure of exhaustion. After the dust settles, the realm must recover its strength.
+
 ## When to use
 
 Capacity, concurrency, saturation, scaling and overload claims.

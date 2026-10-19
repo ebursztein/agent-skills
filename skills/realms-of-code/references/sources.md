@@ -3,14 +3,22 @@
 The engineering assignments and axioms were developed with Elie Bursztein on
 2026-10-18. They use fictional factions as mnemonic inspiration. They are
 original engineering guidance; a faction's fictional conduct is not a software
-standard. No scripts, artwork or project-specific rules from Capsem are copied.
+standard. The short lore passages carry the spirit of the author's earlier
+engineering ledger while retaining the discipline assignments agreed for this
+charter. They are original engineering allegories, not descriptions of canon
+or quotations from the fiction. No scripts, artwork or project-specific rules
+from Capsem are copied.
 
 ## Literary inspirations
 
 - [House words](https://awoiaf.westeros.org/index.php/House_words): Martell,
   Tyrell, Tully, Arryn, Baratheon and Stark use their established house words.
+  Targaryen's original words are “Fire and Blood.” This charter deliberately
+  uses the author's “Blood and Fire” adaptation, interpreted as forging code
+  from raw first principles; it is not labeled as a verbatim house quotation.
 - [Daenerys in Hardhome](https://www.imdb.com/title/tt3866850/characters/nm3592338/):
-  the wheel quotation is character dialogue, not House Targaryen's house words.
+  the wheel metaphor in Targaryen's lore draws on character dialogue, not the
+  house's words.
 - [Lannister and Iron Bank sayings](https://gameofthrones.fandom.com/wiki/Iron_Bank_of_Braavos):
   the debt sayings are associated sayings, not official house words.
 - [Drowned God](https://gameofthrones.fandom.com/wiki/Drowned_God): Greyjoy's

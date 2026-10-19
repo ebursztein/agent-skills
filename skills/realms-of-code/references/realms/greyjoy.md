@@ -14,6 +14,10 @@ Chaos engineering and fuzzing.
 
 Motto: ironborn religious saying; see [provenance](../sources.md).
 
+## The lore
+
+Pyke teaches what a calm harbor cannot. Greyjoy sends waves against assumptions: broken connections, interrupted writes, hostile inputs and retries at the worst moment. The measure of strength is what remains true after the storm. Keep the chart of every wreck so the same reef cannot surprise us twice.
+
 ## When to use
 
 Failure-prone boundaries, parsers, concurrent workflows, recovery and resilience claims.

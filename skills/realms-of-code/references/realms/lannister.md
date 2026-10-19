@@ -14,6 +14,10 @@ TDD-driven, disciplined development.
 
 Motto: associated saying; see [provenance](../sources.md).
 
+## The lore
+
+At Casterly Rock, every promised behavior opens a debt. Write the failing test into the ledger before forging the implementation; settle it with passing behavior and finish the refactor. Keep each obligation small and ordered, so unfinished work cannot hide beneath a mountain of gold.
+
 ## When to use
 
 Implementing behavior changes, fixing defects or refactoring tested behavior.

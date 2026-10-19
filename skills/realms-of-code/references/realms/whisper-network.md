@@ -14,6 +14,10 @@ Observability.
 
 Motto: original engineering motto; see [provenance](../sources.md).
 
+## The lore
+
+The little birds follow a request through the passages of the realm. Their reports connect cause to consequence and carry the useful detail to whoever can act. A thousand unconnected whispers are noise; a trustworthy account explains what failed, where and for whom.
+
 ## When to use
 
 Logs, metrics, traces, alerting, production diagnosis and instrumenting workflows.
